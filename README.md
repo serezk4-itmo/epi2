@@ -2,10 +2,9 @@
 
 Scrum-план разработки MVP платформы для дизайнеров и заказчиков.
 
-- [Задачи и доска YouTrack](https://skdorokhinmamalyshev.youtrack.cloud/projects/DPRO)
+- [Проект YouTrack](https://skdorokhinmamalyshev.youtrack.cloud/projects/DPRO)
+- [Scrum-доска](https://skdorokhinmamalyshev.youtrack.cloud/agiles/204-1/current)
 - [Отчёт по лабораторной работе](report.md)
 - [Отчёт DOCX](report.docx)
 
-Рабочие ветви называются `feature/DPRO-<номер>-<тема>`. Ключ задачи также указывается в сообщении коммита и описании pull request. Релизы готовятся в ветвях `release/<версия>`.
-
-Токены и пароли хранятся вне репозитория. Скрипт `build_figures.py` читает `YOUTRACK_TOKEN` из окружения и обновляет иллюстрации отчёта.
+В отчёте приведены снимки доски, карточки задачи и четырёх встроенных отчётов YouTrack. Рабочие ветви используют формат `feature/DPRO-<номер>-<тема>`; релизные ветви — `release/<версия>`.
